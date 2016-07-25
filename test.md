@@ -36,22 +36,17 @@ if __name__ == "__main__":
 
 
 ```java
-
-
-
-
-
+<TBD> java code
 ```
 
 
 ```go
-package main
+<TBD> go code
 ```
 
 
 ```powershell
-TBD
-
+<TBD> powershell code
 ```
  
 > Response JSON:
