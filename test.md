@@ -1,22 +1,3 @@
----
-
-title: Test
-
-language_tabs:
-    - python
-    - java
-    - go
-    - powershell
-
-toc_footers:
-    - <a href='#'>Sign Up for a Developer Key</a>
-
-includes:
-    - test
-
-search: True
-
----
 
 # Introduction
 test Rest API
@@ -40,14 +21,17 @@ test Rest API
 ```python
 #!/usr/bin/env python
 
-import pexpect
-child = pexpect.spawn("ssh root@10.132.240.218 ls /var/log/*.log")
-child.logfile = open("/tmp/mylog", "w")
-child.expect(".*assword:")
-child.send("master\n")
+## To test how python code will be displayed in the markdown format
 
+import os
+
+# To print testing
 def test():
   print "testing"
+
+if __name__ == "__main__":
+  # test function call
+  test()
 ```
 
 
@@ -81,13 +65,13 @@ Failed
 Adds the active directory configuration
 
 ### HTTP Request
-`POST https://www.google.com`
+`POST https://www.example.com`
 
 ### Parameters
 
 col1 | col2 | col3
 ------------ | ------------ | ------------
-val1aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa | val2ssssssssssssssssssssssssssssssssssssss | val3asddddddddssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+val1 | val2 | val3
 
 
 <aside class="notice">Test Notice</aside>
