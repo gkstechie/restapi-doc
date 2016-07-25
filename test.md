@@ -27,7 +27,7 @@ import os
 
 # To print testing
 def test():
-  print "testing"
+  print "Output: testing"
 
 if __name__ == "__main__":
   # test function call
@@ -54,12 +54,11 @@ TBD
 
 ```
  
-> The above command returns JSON structured like this:
+> Response JSON:
  
 
 ```json
-User login failed.
-Failed
+Output: testing
 ```
 
 Adds the active directory configuration
