@@ -13,8 +13,10 @@ test Rest API
 
 # header1
 
+## /without div header2
+
 <div class="test-group" markdown="1">
-## /header2
+## /with div header2
 </div>
 
 
